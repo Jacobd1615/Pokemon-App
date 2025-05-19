@@ -1,20 +1,21 @@
-Pokemon search app:
+# Code Wars Python Solutions
 
-A simple web app to search for Pokémon by name or ID using the PokeAPI.
+This repository contains Python solutions. Each solution is clearly separated and commented for easy understanding and review.
 
-How to use:
+## Contents
+- `code-wars.py`: Python functions for:
+  - Counting vowels in a string
+  - Converting a number to a string
+  - Checking if a number is even or odd
 
-1. Open `Pokemon.html` in your browser.
-2. Enter a Pokémon name or ID.
-3. Click search to see the Pokémon's info.
+## How to Use
+1. Clone or download this repository.
+2. Open `code-wars.py` in VS Coding.
+3. You can import and use the functions, or run/modify them for your own practice.
 
-Whats inside:
+## Example Functions
+- **get_count(sentence):** Returns the number of vowels in a string.
+- **number_to_string(num):** Converts a number to its string representation.
+- **even_or_odd(number):** Returns "Even" or "Odd" depending on the input number.
 
-- Search by name or ID
-- Displays Pokémon name, image, and type(s)
-- Error handling for invalid searches
-
-API used:
-
-- [PokeAPI](https://pokeapi.co/) for the Pokémon data
 
